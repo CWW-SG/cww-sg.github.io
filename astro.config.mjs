@@ -6,21 +6,30 @@ export default defineConfig({
   site: 'https://cww-sg.github.io',
   integrations: [
     starlight({
-      title: 'My Docs',
-      social: {
-        github: 'https://github.com/withastro/starlight',
-      },
+      title: 'CWW AWS',
+      // social: {
+      //   github: 'https://github.com/withastro/starlight',
+      // },
       sidebar: [
         {
-          label: 'Guides',
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
-          ],
+          label: 'Start Here',
+          autogenerate: { directory: 'Start Here' },
         },
         {
-          label: 'Reference',
-          autogenerate: { directory: 'reference' },
+          label: 'Architecture',
+          autogenerate: { directory: 'Architecture' },
+        },
+        {
+          label: 'Security',
+          autogenerate: { directory: 'Security' },
+        },
+        {
+          label: 'DNS and Domain Management',
+          autogenerate: { directory: 'DNS and Domain Management' },
+        },
+        {
+          label: 'Guide',
+          autogenerate: { directory: 'Guide' },
         },
       ],
     }),

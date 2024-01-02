@@ -35,8 +35,15 @@ The AWS role GitHub Actions assumes has this permission policy:
 }
 ```
 
+:::note
+
+Replace `{ }` with actual value(s)
+
+:::
+
 :::tip
 
 This permission policy is based on the guidelines found
 [here](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-push.html)
+
 :::

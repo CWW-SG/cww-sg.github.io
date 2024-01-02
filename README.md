@@ -1,4 +1,4 @@
-# [CWW-SG.GITHUB.IO](https://cww-sg.github.io)
+# Link to documentation: [cww-sg.github.io](https://cww-sg.github.io)
 
 ## 🚀 Project Structure
 

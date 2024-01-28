@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions OIDC with AWS
-Description: Assuming AWS account roles from GitHub actions
+description: Assuming AWS account roles from GitHub actions
 ---
 
 GitHub Actions builds and pushes container images to ECR. For this, it assumes a

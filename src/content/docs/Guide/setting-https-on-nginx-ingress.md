@@ -36,7 +36,3 @@ spec:
                 port:
                   name: https
 ```
-
-## Setting up sub-path based routing
-
-#TODO: Add content
